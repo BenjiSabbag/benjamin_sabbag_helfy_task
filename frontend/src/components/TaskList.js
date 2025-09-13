@@ -14,7 +14,7 @@ const TaskList = ({ tasks, editingId, setEditingId, onUpdate, onDelete, onToggle
       }
       return prev;
     });
-  }, [tasks.length, setCarouselIndex]);
+  }, [tasks.length]);
 
 
   if (!tasks.length) {

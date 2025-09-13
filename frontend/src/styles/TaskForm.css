@@ -1,0 +1,40 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  background: #f9f9f9;
+  padding: 1em;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  max-width: 400px;
+  margin: 1em auto;
+}
+.task-form input,
+.task-form textarea,
+.task-form select {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  width: 100%;
+  font-family: inherit;
+}
+.task-form textarea {
+  min-height: 50px;
+}
+.form-actions {
+  display: flex;
+  gap: 0.5em;
+  justify-content: flex-end;
+}
+.form-actions button {
+  border: none;
+  background: #007bff;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-actions button[type="button"] {
+  background: #888;
+}

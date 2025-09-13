@@ -1,0 +1,55 @@
+
+.task-list-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.carousel-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 0.5em;
+  min-height: 220px;
+}
+
+.carousel-arrow {
+  background: #eee;
+  border: none;
+  color: #333;
+  font-size: 2rem;
+  padding: 0.1em 0.3em;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 2;
+}
+.carousel-arrow:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.task-list-empty {
+  text-align: center;
+  color: #888;
+  padding: 1rem 0;
+}
+
+.carousel-indicator {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.carousel-indicator span {
+  font-size: 1.2rem;
+  color: #bbb;
+  margin: 0 2px;
+}
+.carousel-indicator .active {
+  color: #007bff;
+}
